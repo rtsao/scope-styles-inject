@@ -1,0 +1,15 @@
+{
+  "name": "scope-styles-inject",
+  "version": "0.0.0",
+  "description": "scope-styles with auto-injection of styles",
+  "author": "Ryan Tsao <ryan.j.tsao@gmail.com>",
+  "main": "index.js",
+  "homepage": "https://github.com/rtsao/scope-styles-inject",
+  "repository": "git@github.com:rtsao/scope-styles-inject.git",
+  "bugs": "https://github.com/rtsao/scope-styles-inject/issues",
+  "dependencies": {
+    "scope-styles": "^0.2.0",
+    "insert-css": "^0.2.0"
+  },
+  "license": "MIT"
+}
