@@ -5,7 +5,7 @@ var insertCss = require('insert-css');
 
 function wrappedScopeStyles() {
   var result = scopeStyles.apply(null, arguments);
-  if (document) {
+  if (global.document) {
     insertCss(scopeStyles.getCss(result));
   }
   return result;
